@@ -36,6 +36,7 @@ def minimum(*args):
         return
 
     the_min = float("inf")
+    print(f"the min object is {the_min}")
     for arg in args:
         if isinstance(arg, numbers.Real):
             the_min = min(the_min, arg)
